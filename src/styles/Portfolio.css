@@ -1,0 +1,94 @@
+.portfolio {
+  @apply relative;
+}
+
+.portfolio .home {
+  @apply absolute
+  sm:fixed
+  top-[20px]
+  left-[30px]
+  text-base
+  sm:text-xl
+  font-semibold
+  underline
+  decoration-wavy
+  text-[#f1b902];
+}
+
+.portfolio .projects {
+  @apply pt-20;
+}
+
+.project-card {
+  @apply flex
+  flex-col-reverse
+  sm:flex-row
+  items-center
+  justify-center
+  bg-[#ffffff3f]
+  p-5
+  sm:p-6 
+  mb-4
+  sm:mb-10
+  rounded-[20px];
+}
+
+.project-card-top {
+  @apply w-full 
+  sm:w-[50%];
+}
+
+.project-card-bottom {
+  @apply w-full 
+  sm:w-[50%]
+  h-auto
+  max-h-[150px]
+  sm:max-h-[200px]
+  mb-[10px]
+  sm:mb-0
+  overflow-y-scroll;
+}
+
+.project-name {
+  @apply text-[#f1b902]
+  text-2xl
+  sm:text-5xl
+  mb-2
+  sm:mb-5
+  underline
+  decoration-dotted;
+}
+
+.project-des {
+  @apply text-sm 
+  sm:text-xl;
+}
+
+.project-tech {
+  @apply text-white
+  text-base 
+  sm:text-2xl
+  mt-3
+  mb-2
+  sm:mb-5;
+}
+
+.project-view {
+  @apply block
+  w-fit
+  text-black
+  mb-1
+  sm:mb-2
+  hover:bg-white
+hover:text-black;
+}
+
+.project-img {
+  @apply w-full
+  filter 
+  grayscale-[100%]
+  transition
+  duration-[2s]
+  cursor-pointer
+  hover:grayscale-0;
+}

@@ -1,0 +1,20 @@
+footer {
+  @apply w-full
+  min-h-[30vh]
+  text-white
+  text-sm
+  sm:text-xl
+  flex
+  flex-col;
+}
+
+footer .footer-links {
+  @apply flex 
+  flex-row 
+  items-center 
+  gap-2;
+}
+
+footer a {
+  @apply text-[#f1b902];
+}

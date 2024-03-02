@@ -1,0 +1,16 @@
+.recent-section {
+  @apply grid
+  place-items-center
+  min-h-[15vh]
+  sm:min-h-[30vh]
+  text-lg
+  sm:text-5xl;
+}
+
+.recent-work {
+  @apply block
+  text-center
+  text-[#f1b902]
+  underline
+  decoration-wavy;
+}

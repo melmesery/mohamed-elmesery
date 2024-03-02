@@ -1,0 +1,20 @@
+.about-section {
+  @apply w-full
+  min-h-[50vh]
+  text-lg
+  sm:text-3xl;
+}
+
+.about-resume {
+  @apply block 
+  text-[#f1b902]
+  underline
+  decoration-wavy
+  mb-1
+  sm:mb-3;
+}
+
+.about-me a {
+  @apply text-[#f1b902]
+  underline;
+}
